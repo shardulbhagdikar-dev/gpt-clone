@@ -19,13 +19,13 @@ export async function onBoard(){
             clerkId:clerkUser.id,
             email,
             firstName:clerkUser.firstName,
-            lastname:clerkUser.lastName,
+            lastName:clerkUser.lastName,
             imageurl:clerkUser.imageUrl
         },
         update:{
             email,
             firstName:clerkUser.firstName,
-            lastname:clerkUser.lastName,
+            lastName:clerkUser.lastName,
             imageurl:clerkUser.imageUrl
         }
     })
